@@ -1,0 +1,11 @@
+{
+    "dialect": "postgresql",
+    "out": "./migrations-folder",
+    "schema": "./utils/schema.js",
+    "breakpoints": false,
+    "driver":"pg",
+    "dbCredentials":{
+        "connectionString":"postgresql://jobnodes_owner:9taDpH0MhsRF@ep-dawn-tooth-a12pa1g6.ap-southeast-1.aws.neon.tech/job-nodes?sslmode=require"
+    }
+  }
+  
