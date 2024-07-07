@@ -9,7 +9,7 @@ function Header() {
  
   return (
     <div className='flex justify-between items-center shadow-lg p-4 border rounded-lg border-transparent' >
-        <button className='btn btn-primary btn-sm md:btn-md ' onClick={()=>navigation('/new')}>+New idea</button>
+        <button className='btn btn-primary btn-sm md:btn-md ' onClick={()=>navigation('/new')}>+New Node</button>
         <h2 className='font-bold text-sm md:text-2xl text-primary hover:cursor-pointer' onClick={()=>navigation('/')}>Job Nodes</h2>
         <div className='flex gap-2 items-center'>
            <img src={mypic} className="w-10 h-10 rounded-full" /> 
