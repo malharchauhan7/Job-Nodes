@@ -3,9 +3,13 @@ import { db } from './../../../../utils/index';
 import { Ideas } from '../../../../utils/schema';
 import { eq } from 'drizzle-orm';
 import { upvote, downvote, checkIsAlreadyUpVoted, checkIsAlreadyDownVoted } from '../../../Service'; 
-
+import Linkify from 'linkify-react';
 function IdeaItem({ idea, index, refreshData }) {
-
+    const linkifyOptions = {
+        attributes: {
+            target: '_blank'
+        }
+    };
     const upVoteHandler = async () => {
         try {
             if (upvote(idea.id)) {
@@ -49,7 +53,7 @@ function IdeaItem({ idea, index, refreshData }) {
     return (
         <div className='my-5 border shadow-lg rounded-2xl gap-7 p-5'>
             <div className='flex justify-between'>
-                <h2 className='gap-2'><span>{index + 1}. </span>{idea?.content}</h2>
+                <h2 className='gap-2'><span>{index + 1}. </span><Linkify options={linkifyOptions}>{idea?.content}</Linkify></h2>
                 <div className='flex flex-col items-center'>
                     <h2 className={`text-lg hover:bg-gray-200 rounded-md p-1 cursor-pointer px-2 ${checkIsAlreadyUpVoted(idea.id)&&'bg-slate-200'}`} onClick={upVoteHandler}>🫡</h2>
                     <h2 className='text-lg rounded-md p-1 font-bold'>{idea.vote}</h2>
