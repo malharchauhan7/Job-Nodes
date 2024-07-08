@@ -26,11 +26,11 @@ New Features:
 
 1. Category-Specific Tips:
 
--Add tips directly to specific categories, making it easier for users to find relevant advice.
--Categories include industry, job type, career level, and more.
+- Add tips directly to specific categories, making it easier for users to find relevant advice.
+- Categories include industry, job type, career level, and more.
 
 2. Sorted by Category:
-Tips will be automatically sorted within their respective categories.
-Users can quickly access the most relevant and helpful tips in each category.
+- Tips will be automatically sorted within their respective categories.
+- Users can quickly access the most relevant and helpful tips in each category.
 
 ![image](https://github.com/malharchauhan7/Job-Nodes/assets/72789303/4baf1358-4dfe-4242-ad05-049059f9a0b9)
