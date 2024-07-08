@@ -1,4 +1,4 @@
-# Job Nodes <a href="https://job-nodes.vercel.app/" > Live </a>
+# Job Nodes <a href="https://job-nodes.vercel.app/" target="_blank"> Live </a>
 
 # Overview:
 JobNodes is a cutting-edge online community platform designed to connect job seekers, professionals, and career enthusiasts. It's a space where users can freely share job search tips, career advice, and workplace experiences. With a focus on fostering a supportive community, JobNodes ensures the most valuable insights rise to the top through a robust voting system.
