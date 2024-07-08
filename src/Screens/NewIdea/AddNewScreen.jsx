@@ -69,7 +69,7 @@ function AddNewScreen() {
             <label>Your Tip *</label>
             <textarea value={idea}
                 onChange={(event)=>setIdea(event.target.value)}
-            className="textarea textarea-bordered border-primary" placeholder="Share Your Tip"></textarea>
+            className="textarea textarea-bordered border-primary" placeholder="Your career advice can help others. Share it here!"></textarea>
         </div>
 
         {!existingUser &&<div className='flex flex-col mt-7 gap-2'>
